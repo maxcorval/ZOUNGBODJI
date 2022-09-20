@@ -2,9 +2,18 @@ import React from 'react';
 import { Slide } from 'react-slideshow-image';
 
 const slideImages = [
-  'images/chambre 2.jpg',
-  'images/chambre 3.jpg',
-  'images/chambre 5.jpg'
+  {
+    url: 'images/chambre_2.jpg',
+    caption: 'Slide 1'
+  },
+  {
+    url: 'images/chambre_3.jpg',
+    caption: 'Slide 2'
+  },
+  {
+    url: 'images/chambre_4.jpg',
+    caption: 'Slide 3'
+  },
 ];
 
 const properties = {
@@ -36,7 +45,6 @@ const Slideshow = () => {
       </Slide>
     )
 }
-
   
   export default Slideshow;
   
