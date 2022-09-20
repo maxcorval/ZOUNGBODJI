@@ -11,16 +11,15 @@ function App() {
     <BrowserRouter>
     <div className="App"> 
       <Navigation/>
-      {/* <Switch>
+      <Switch>
        <Route path='/Login'>
         <Login/>
         </Route> 
         <Route path='/Welcome'>
         <Welcome/>
         </Route> 
-      </Switch> */}
+      </Switch>
     </div>
-    
     </BrowserRouter>
     
   );
